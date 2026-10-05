@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form action="#" method="post"></form>
+    <fieldset>
+        <h3>Personal Details</h3>
+        <label for="fname" >First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="tel">Phone Number:</label>
+        <span>+91</span>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{10}"
+       maxlength="10" required><br>
+       <br>
+       <label for="dob" >Date of Birth:</label>
+       <input type="date" id="dob"n name="dob">
+       <label for="position">Position Applied For</label>
+<select id="position" name="position" required>
+  <option value="">-- Select position --</option>
+
+  <optgroup label="Tech">
+    <option value="frontend">Frontend Developer</option>
+    <option value="backend">Backend Developer</option>
+    <option value="data">Data Analyst</option>
+  </optgroup>
+
+  <optgroup label="Non-Tech">
+    <option value="hr">HR</option>
+    <option value="marketing">Marketing</option>
+  </optgroup><br><br>
+
+  <label for="Skills"><b>Skills:</b></label><br><br>
+ <input type="checkbox" id="css" name="skills" value="css" >
+ <input type="checkbox" >
+ <input type="checkbox" >
+ <input type="checkbox">
+</select>
+
+
+
+    </fieldset>
+    
+</body>
+</html>
