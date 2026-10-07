@@ -1,0 +1,14 @@
+
+/*style.css*/
+body{
+    background-color: rgb(212, 89, 126);
+}
+p {
+    color:blue;
+    text-align:center;
+    /* background-color: pink; */
+    line-height:1.5;
+}
+h1{
+    color:gold;
+}
