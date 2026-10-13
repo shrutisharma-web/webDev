@@ -10,7 +10,8 @@ p      { color: green;
   background-color:aqua;
   border: 1px solid black;
   box-sizing: border-box;
-
+margin:auto;
+text-align:center;
 
 
 }

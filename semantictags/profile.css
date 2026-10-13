@@ -1,0 +1,31 @@
+body {
+      margin: 0;
+      height: 100vh;                 /* bonus */
+      background: url("me.jpeg");
+      background-size: cover;        /* bonus */
+    }
+
+    .card{
+        width: 320px;
+        margin: 40px auto;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background: rgb(224, 140, 140);
+      text-align: center;
+    }
+    .top {
+      height: 100px;
+      background: linear-gradient(to right, #da8f92, #fad0c4);
+      border-radius: 8px;
+    }
+.card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;            /* circle */
+      margin-top: -50px;             /* top gradient pe thoda overlap */
+    }
+    .card h2 {
+      font-size: 1.5rem;             /* rem unit */
+    }
