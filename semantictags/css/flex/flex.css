@@ -1,8 +1,11 @@
 .container {
     background-color: blue;
     display: flex;
-flex-direction: column-reverse;
-width: 140px;
+flex-direction: row-reverse;
+/* width: 140px; */
+/* overflow-x: auto;
+ */
+  flex-wrap: wrap;
 }
 .container div {
     background-color: yellow;
