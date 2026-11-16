@@ -2,20 +2,23 @@
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     background-color: blue;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
 }
 
-.left,
+/* .left,
 .right{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
-}
+} */
 
-.left div,
+/* .left div,
 .right div{
     width: 80px;
     height: 80px;
     background-color: yellow;
-}
+} */

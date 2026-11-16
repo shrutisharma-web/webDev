@@ -1,0 +1,21 @@
+div{
+    border-radius: 20px;
+}
+.big{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: relative;
+}
+.small{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* z-index: 1; */
+    position: absolute;   /* lets you place it with top/bottom/left/right */
+  bottom: 0;            /* touch the bottom edge of the blue box */
+  left: 0; 
+}
+p{
+    text-align: right;
+}
