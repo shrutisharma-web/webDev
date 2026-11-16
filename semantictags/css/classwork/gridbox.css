@@ -1,0 +1,26 @@
+.big{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 10px;
+    height: 300px;
+    align-content: space-around;
+    justify-items: center;
+     
+    width:400px;
+    border: 1px solid #171817;
+    padding:10px 20px;
+}
+
+.small{
+    background-color: #1aac4f;
+    border: 1px solid #b63fda;
+    padding: 20px;
+    /* padding-left: 40px; */
+    text-align: center;
+    align-items: center;
+     
+    height: 50px;
+    width:50px;
+    /* align-items: center; */
+}
