@@ -1,0 +1,25 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(89, 174, 227);
+    border-radius: 20px;
+    position: relative;
+}
+.box p{
+    position: absolute;
+    margin: 0;
+}
+.centertop{ left: 200px;}
+.centerleft{
+    top: 200px;
+}
+.centerright{
+    top: 200px;
+    right: 0px;
+}
+.centerbottom{
+bottom: 0px;
+left: 200px;
+}
+    
+
