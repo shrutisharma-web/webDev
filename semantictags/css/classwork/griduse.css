@@ -1,0 +1,21 @@
+.big{
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    position: relative;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+padding-top: 20px;
+/* padding-left: ; */
+
+}
+.small{
+    background-color: pink;
+   height: 50px;
+   width: 50px;
+    justify-content: space-evenly;
+    /* padding: 50px; */
+    text-align: center;
+}
+    

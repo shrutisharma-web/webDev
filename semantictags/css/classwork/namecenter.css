@@ -9,17 +9,17 @@
     position: absolute;
     margin: 0;
 }
-.centertop{ left: 200px;}
+.centertop{ left: 49%;}
 .centerleft{
-    top: 200px;
+    top: 49%;
 }
 .centerright{
-    top: 200px;
-    right: 0px;
+    top: 49%;
+    right: 0;
 }
 .centerbottom{
 bottom: 0px;
-left: 200px;
+left: 49%;
 }
     
 
